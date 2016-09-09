@@ -25,12 +25,11 @@ footer-links:
   instagram:
   linkedin:
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: "아무거나_넣음" # just type anything here for a working RSS icon
   twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
-  slack: sku-coderface
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
@@ -85,3 +84,6 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+defaults:
+  values: "익명의 코잘생"
