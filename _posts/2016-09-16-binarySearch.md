@@ -1,3 +1,8 @@
+---
+layout: post
+title: Binary Search Algorithm Writtn in Swift 3.0
+---
+
 ```swift
 enum SearchError: Error{
     case NotSrotedError
