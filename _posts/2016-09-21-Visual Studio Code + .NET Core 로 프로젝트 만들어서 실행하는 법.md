@@ -40,10 +40,10 @@ VS Code에 C# 확장기능은 설치되어있다고 가정함.
 
     `dotnet run` 이나 Ctrl + Shift + B 로 빌드 후 dll 파일이 있는 경로를 적으면 됨.
 
-    예시)
-    `"program": "${workspaceRoot}/bin/Debug/<target-framework>/<project-name.dll>",`
-        ↓
-    `"program": "${workspaceRoot}/bin/Debug/netcoreapp1.0/vscode_test.dll",`
+    예시)<br/>
+    `"program": "${workspaceRoot}/bin/Debug/<target-framework>/<project-name.dll>",`<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;↓<br/>
+    `"program": "${workspaceRoot}/bin/Debug/netcoreapp1.0/vscode_test.dll",`<br/>
     (`dotnet new`를 실행하던 상위 폴더 이름이 vscode_test 였음)
 
 # 기타
