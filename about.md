@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
+title: 정보
 permalink: /about/
 ---
 
-Some information about you!
+SKU-코잘생들의 팀블로그. 배운 거 정리해서 올리는 곳.
 
-### More Information
+### SKU-코잘생?
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[요기요기 들어가보세요](https://github.com/sku-coderface). 원래는 슬랙이에요.
