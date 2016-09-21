@@ -20,7 +20,7 @@ title: 실제 표시될 글 제목
 
 저장소를 클론해도 되고, Github 저장소에서 `Create new file`을 눌러 직접 파일을 생성해도 돼요.
 
-저자 정보를 추가하려면 `_data/authors.yml`을 수정하면 돼요.
+글쓴이 정보를 추가하려면 `_data/authors.yml`을 수정하면 돼요.
 
 # 그 외
 
