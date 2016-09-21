@@ -9,12 +9,9 @@ layout: default
   <div class="trail">
     <!-- author -->
     {% assign author = site.data.authors[page.author] %}
-    {% if author %}{{ author.name }}&nbsp;
-      {% if author.github %}<a href="https://github.com/{{ author.github }}">g</a>{% endif %}
-      {% if author.twitter %}<a href="https://twitter.com/{{ author.twitter }}">t</a>{% endif %}
-      {% if author.web %}<a href="{{ author.web }}">w</a>{% endif %}
-    ,{% endif %}
-    {% if page.date %}{{ page.date | date: "%Y년 %-m월 %-d일, " }}{% endif %}
+    {% if author %}글쓴이: {{ author.name }}
+    ({% if author.github %}<a class="author github" href="https://github.com/{{ author.github }}"></a>{% endif %}{% if author.twitter %}<a class="author twitter" href="https://twitter.com/{{ author.twitter }}">t</a>{% endif %}{% if author.web %}<a class="author web" href="{{ author.web }}">w</a>){% endif %}),{% endif %}
+    {% if page.date %}{{ page.date | date: "%Y년 %-m월 %-d일" }}{% endif %}
   </div>
 
   <div class="entry">
