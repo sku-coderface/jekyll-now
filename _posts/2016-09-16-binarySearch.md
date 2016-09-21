@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Binary Search Algorithm Writtn in Swift 3.0
+author: miles3898
 ---
 
 ```swift
@@ -14,11 +15,11 @@ extension Array where Element: Comparable{
         guard self == sorted(by: <) else{
             throw SearchError.NotSrotedError
         }
-        
+
         var low = 0
         var high = self.count
         var mid = (low + high)/2
-        
+
         while low <= high {
             switch self[mid]{
             case item:
@@ -30,7 +31,7 @@ extension Array where Element: Comparable{
             default:
                 break
             }
-            
+
             mid = (low + high)/2
         }
         throw SearchError.CanNotFindSuchItemError

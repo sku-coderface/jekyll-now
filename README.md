@@ -20,6 +20,8 @@ title: 실제 표시될 글 제목
 
 저장소를 클론해도 되고, Github 저장소에서 `Create new file`을 눌러 직접 파일을 생성해도 돼요.
 
+저자 정보를 추가하려면 `_data/authors.yml`을 수정하면 돼요.
+
 # 그 외
 
 이 블로그는 [jekyll-now](https://github.com/barryclark/jekyll-now)로 초고속으로 만들어졌어요. 설정 같은 게 궁금하면 저기로 ㄱㄱㄱㄱ

@@ -5,12 +5,20 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
 
-  <div class="entry">
-    {{ content }}
+  <!-- trail은 글 밑에 따라오는 부분을 의미 -->
+  <div class="trail">
+    <!-- author -->
+    {% assign author = site.data.authors[page.author] %}
+    {% if author %}{{ author.name }}&nbsp;
+      {% if author.github %}<a href="https://github.com/{{ author.github }}">g</a>{% endif %}
+      {% if author.twitter %}<a href="https://twitter.com/{{ author.twitter }}">t</a>{% endif %}
+      {% if author.web %}<a href="{{ author.web }}">w</a>{% endif %}
+    ,{% endif %}
+    {% if page.date %}{{ page.date | date: "%Y년 %-m월 %-d일, " }}{% endif %}
   </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+  <div class="entry">
+    {{ content }}
   </div>
 
   {% include disqus.html %}
