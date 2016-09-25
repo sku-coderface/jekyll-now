@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Binary Search Algorithm Writtn in Swift 3.0
+title:  Quick QuickSort
 author: miles3898
 ---
 
