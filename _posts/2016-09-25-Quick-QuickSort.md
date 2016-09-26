@@ -42,7 +42,7 @@ def quicksort(array):
   if not isinstance(array, list):
     return None
     
-  if len(array) < 1:
+  if len(array) <= 1:
     return array
    
   mid = len(array)//2
@@ -75,7 +75,7 @@ const quicksort = function(array){
 		return
 	}
 
-	if (array.length < 1){
+	if (array.length <= 1){
 		return array
 	}
 
