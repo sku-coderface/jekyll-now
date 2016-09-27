@@ -53,7 +53,7 @@ int main(int argc, const char * argv[]) {
 
 블럭 코딩은 파이썬의 람다 함수와 같이 함수를 리터럴로 작성하는 것을 말하는데, GCC나 VC++등에서 C언어를 접한 사람이라면 아마 놀랄 것이다.  
 
-```C
+```cpp
 #include<stdio.h>
 #include<stdlib.h>
 
