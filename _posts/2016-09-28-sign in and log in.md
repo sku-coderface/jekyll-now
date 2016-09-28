@@ -4,7 +4,7 @@ title: Sign In/Out and Log In/Out
 author: miles3898
 ---
 
-###Sign in과 Log in의 차이점은 뭘까?
+## Sign in과 Log in의 차이점은 뭘까?
 
 출처는 [이곳](http://ell.stackexchange.com/questions/1362/difference-between-logoff-logout-signoff-and-signout).
 

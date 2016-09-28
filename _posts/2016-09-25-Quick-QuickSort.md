@@ -4,7 +4,7 @@ title: Quick QuickSort
 author: miles3898
 ---
 
-###빠르게 작성하는 QuickSort  
+## 빠르게 작성하는 QuickSort  
 
 어제 낮에 오랜만에 알고리즘을 한번 더 공부해야겠다 싶어서 알고리즘 책을 펴 들었다.  
 대부분의 알고리즘 책들이 그렇듯이, C언어 혹은 C언어를 기반으로 하는 의사코드로 작성이 되어있다.  
@@ -33,7 +33,7 @@ author: miles3898
 스위프트로 작성된 코드를 이해하기 어려울 수 있으니, 아래에 파이썬과 자바스크립트로 작성한 코드를 첨부한다.  
 
 
-###python3
+## python3
 
 ```python
 #QuickSort.py
@@ -65,7 +65,7 @@ print(sorted)
 #실행결과: 0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9
 ```
 
-###JavaScript(ES6, *)
+## JavaScript (ES6, *)
 
 ```javascript
 

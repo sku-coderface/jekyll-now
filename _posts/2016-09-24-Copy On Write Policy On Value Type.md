@@ -4,7 +4,7 @@ title: Copy On Write Policy On Value Type
 author: miles3898
 ---
 
-### Value 타입을 Value 타입이라 불러야 하나, Reference 타입이라 불러야 하나...
+## Value 타입을 Value 타입이라 불러야 하나, Reference 타입이라 불러야 하나...
 
 자바를 써온 나에게 C#을 쓸 때, 구조체를 써야할지, 클래스를 써야할지는 그다지 고민거리는 아니었다.  
 왜냐? 자바에서는 모든 게 클래스기 때문에, 모든 걸 클래스로 만들었으니, C#에서도 예외는 없었다.  

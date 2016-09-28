@@ -6,11 +6,11 @@ author: sftblw
 
 슬랙에 올렸던 걸 정리하였습니다. 윈도우즈 기준.
 
-# 전제
+## 전제
 
 VS Code에 C# 확장기능은 설치되어있다고 가정함.
 
-# 방법
+## 방법
 
 좀 성가심.
 
@@ -46,7 +46,7 @@ VS Code에 C# 확장기능은 설치되어있다고 가정함.
     `"program": "${workspaceRoot}/bin/Debug/netcoreapp1.0/vscode_test.dll",`<br/>
     (`dotnet new`를 실행하던 상위 폴더 이름이 vscode_test 였음)
 
-# 기타
+## 기타
 
 참고: 디버그 콘솔은 debug console을 검색하거나 Ctrl + Shift + Y 로 띄울 수 있음. 결과가 일반 콘솔에도 나오긴 하는데...
 
