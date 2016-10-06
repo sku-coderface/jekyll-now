@@ -13,7 +13,7 @@ title: Objc Class
 지난 번에 한번 서술한 듯이, ObjC는 `메시지 기반 호출` 방식을 사용한다.<br />
 따라서, 메시지를 받는 수신자가 없으면, 그냥 무시된다.<br />
 
-```Objective-C
+```ObjC
 
 DummyClass* dummy = nil;
 [dummy doSomething];
@@ -32,7 +32,8 @@ ObjC의 클래스 작성은 뭔가가 쪼~~끔 이상하다.<br />
 간단한 클래스 Person을 정의해보자.
 
 `Person.h`
-```objective-c
+
+```ObjC
 
 #import<Foundation/Foundation.h>
 
@@ -57,7 +58,8 @@ ObjC의 클래스 작성은 뭔가가 쪼~~끔 이상하다.<br />
 ```
 
 `Person.m`
-```objective-c
+
+```ObjC
 
 #import "Person.h"
 
@@ -97,7 +99,8 @@ ObjC의 클래스 작성은 뭔가가 쪼~~끔 이상하다.<br />
 `@property`와 `@synthesize`를 이용하면 코드를 확 줄일 수 있다.
 
 `Person.h`
-```objective-c
+
+```ObjC
 
 #import<Foundation/Foundation.h>
 
@@ -116,7 +119,8 @@ ObjC의 클래스 작성은 뭔가가 쪼~~끔 이상하다.<br />
 ```
 
 `Person.m`
-```objective-c
+
+```ObjC
 
 @implementation Person
 
