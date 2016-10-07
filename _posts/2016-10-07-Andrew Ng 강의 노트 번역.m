@@ -1,3 +1,9 @@
+---
+layout: post
+title: Embedded Quiz paper
+author: cineraria219
+---
+
 최근 Andrew Ng의 강의를 보기 시작했다. 물론 한글이 없기에 속도는 몇 배고 차이나지만 이건 내가 자발적으로 공부하는 것이기에 급할 게 없다. 따라서 그것을 정리하신 분의 노트를 번역함과 동시에 내 나름대로 정리해보고자 한다. 미비한 영어실력이지만 나름대로 의역해볼 터이니 실력있는 분들은 오역이 있다면 지적해주시길 바랍니다.
 
 [원본](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.html)
