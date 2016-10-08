@@ -102,7 +102,12 @@ void initGPIO(){
   int pinNumber;
   char inout[79];
 
-  FILE* file = ("config", "r"); //config 파일을 읽기모드로 연다
+  FILE* file = ("config", "r"); //config 파일을 읽기모드로 연다.
+
+  if (file == NULL) {
+    fprintf(stderr, "Can not find config file.");
+    exit(-1);
+  }
 
   while(fscanf(file, "%d %31[^;]%*[^\n]", &pinNumber, inout)) == 2 {
     if ( strcmp(inout, "input") == 0 ) {
