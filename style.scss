@@ -304,3 +304,18 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+// table http://stackoverflow.com/a/28809698/4394750
+table{ 
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:2px solid $darkGray;
+}
+
+th{
+    border:2px solid $darkGray;
+}
+
+td{
+    border:1px solid $darkGray;
+}
